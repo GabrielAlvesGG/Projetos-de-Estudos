@@ -1,0 +1,131 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rosybrown;
+}
+nav{
+    width: 100%;
+    
+    display: flex;
+    position: fixed;
+    background-color: red;
+
+    z-index: 99;
+}
+nav a{
+    color: white;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+nav img{
+    position: relative;
+    border-radius: 40px;
+    height: 50px;
+    width: 40px;
+    left: 20px;
+}
+.pesquisa{
+    position: relative;
+    left: 810px;
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+    top: 5px;
+}
+nav button{
+    position:relative;
+    left: 813px;
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+    top: 5px;
+    background-color: rgb(4, 8, 123);
+    color: white;
+}
+nav button:hover{
+    background-color: rgb(0, 204, 255);
+    transform: 0.2s;
+}
+.roupa{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: -180px;
+    text-shadow: black 2px 2px 3px;
+}
+.titleInverno{
+    background-color: red;
+    border-radius: 5px;
+    text-align:center ;
+    width: 80%;
+    
+}
+.promocoes{
+    position: relative;
+    left: 307px;
+    top: -86px;  
+    background-color: rgba(233, 176, 19, 0.568);
+    border-radius: 4px;
+}
+.blusaAzul{
+    position: relative;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.678) 2px 2px 3px;
+}
+.camisaVerde{
+    position: relative;
+    left: 380px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.678) 2px 2px 3px;
+}
+.camisaNude{
+    position: relative;
+    left: 530px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.678) 2px 2px 3px;
+}
+.promocoes a{
+    color: white;
+   text-decoration: none;
+}
+.topicosRoupas{
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 307px;
+    top: -86px;  
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.39) 2px 2px 3px;
+}
+.topicosRoupas a{
+    text-decoration: none;
+}
+.topicosRoupas table{
+    border-spacing: 23px;
+}
+#slide{
+    width: 80%;
+    position: relative;
+    top: -86px;
+    left:307px;
+}
+#slide img{
+    opacity:0;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+}
+#slide .select{
+    opacity: 1;
+}
